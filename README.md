@@ -8,6 +8,7 @@ Ele reconhece se a cadeia de entrada segue corretamente as regras e
 as valida.
 
 --------------------------------------------------------------------------
+
  A gramática deve ser representada como uma cadeia formada por regras
  separadas por hífens e finalizada com o símbolo "$", e utilizará dos 
 caracteres informados na especificação, sendo os Não terminias em maísculo e
@@ -15,6 +16,8 @@ Terminais em minúsculo.A gramática segue o formato "LadoEsquerdo>LadoDireito",
 onde o lado esquerdo deve conter pelo menos um símbolo
 não terminal, e o lado direito pode conter terminais (letras minúsculas), 
 não terminais ou ser vazio.
+
+--------------------------------------------------------------------------
 
 Para fazer a execução do programa, deve-se, primeiramente, abrir o prompt de comando, onde será 
 feito o uso do compilador GCC. É importante, antes, mudar o diretório para a 
