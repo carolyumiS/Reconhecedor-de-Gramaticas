@@ -77,6 +77,7 @@ Se você utiliza *Linux*, o processo é mais direto. Basta instalar o compilador
 📦 Instalando o GCC no terminal:
 > sudo apt update
 > sudo apt install build-essential
+
 Isso instalará o `gcc`, `g++`, `make` e outras ferramentas essenciais para desenvolvimento em C/C++.
 
 ✅ Verifique a instalação com:
