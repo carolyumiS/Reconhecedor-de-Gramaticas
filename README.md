@@ -18,6 +18,7 @@ não terminal, e o lado direito pode conter terminais (letras minúsculas),
 não terminais ou ser vazio.
 
 --------------------------------------------------------------------------
+## ⚙️ Funcionalidades
 
 Para fazer a execução do programa, deve-se, primeiramente, abrir o prompt de comando, onde será 
 feito o uso do compilador GCC. É importante, antes, mudar o diretório para a 
