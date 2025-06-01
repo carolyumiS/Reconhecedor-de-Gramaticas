@@ -50,12 +50,10 @@ Regras:
 
 RESUMO:
 
-cd C:\diretório da pasta onde está o arquivo.c
+> cd C:\diretório da pasta onde está o arquivo.c
 
-gcc -o reconhecedor.exe reconhecedorGramaticas.c
+> gcc -o reconhecedor.exe reconhecedorGramaticas.c
 
-reconhecedor.exe gramatica.txt
+> reconhecedor.exe gramatica.txt
 
-
- 
 </p>
