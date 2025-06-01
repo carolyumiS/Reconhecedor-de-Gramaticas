@@ -26,21 +26,12 @@ No caso acima, o reconhecedorGramaticas.c está na pasta "teste".
 
 Em seguida, para compilar, o seguinte comando deverá ser executado:
 
-gcc -o reconhecedor.exe reconhecedorGramaticas.c
-
-No Prompt de comando será:
-
-C:\Users\SOLUTION\Desktop\teste>gcc -o reconhecedor.exe reconhecedorGramaticas.c
-
+> gcc -o reconhecedor.exe reconhecedorGramaticas.c
 
 Esse comando cria o arquivo executável reconhecedor.exe. Depois disso,
 pra rodar o programa, digita-se:
 
-reconhecedor.exe gramatica.txt
-
-aparecerá desta forma: 
-
-C:\Users\SOLUTION\Desktop\teste>reconhecedor.exe gramatica.txt
+> reconhecedor.exe gramatica.txt
 
 Sendo "gramatica.txt" o arquivo a ser lido e avaliado pelo programa.
 
