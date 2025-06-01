@@ -51,7 +51,7 @@ Regras:
 
 --------------------------------------------------------------------------
 
-RESUMO:
+## RESUMO:
 
 > cd C:\diretório da pasta onde está o arquivo.c
 
@@ -64,8 +64,7 @@ RESUMO:
 
 
 </p>
-
-## Integrantes do grupo:
-Carolina Yumi Siroma GU3042049
-Diogo Da Silva Almeida GU3059995
+## Integrantes do grupo:  
+Carolina Yumi Siroma GU3042049  
+Diogo Da Silva Almeida GU3059995  
 Celine Galdino da Silva GU3046354
