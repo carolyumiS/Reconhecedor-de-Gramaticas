@@ -59,4 +59,13 @@ RESUMO:
 
 > reconhecedor.exe gramatica.txt
 
+
+
+
+
 </p>
+
+## Integrantes do grupo:
+Carolina Yumi Siroma GU3042049
+Diogo Da Silva Almeida GU3059995
+Celine Galdino da Silva GU3046354
