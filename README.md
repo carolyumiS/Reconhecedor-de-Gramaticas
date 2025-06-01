@@ -7,7 +7,7 @@ capaz de ler e validar gramáticas formais descritas em um arquivo de texto.
 Ele reconhece se a cadeia de entrada segue corretamente as regras e 
 as valida.
 
-
+--------------------------------------------------------------------------
  A gramática deve ser representada como uma cadeia formada por regras
  separadas por hífens e finalizada com o símbolo "$", e utilizará dos 
 caracteres informados na especificação, sendo os Não terminias em maísculo e
