@@ -41,11 +41,12 @@ int valida_ladoEsq(char* str){
     return nao_terminal; //deve ter pelo menos um nao terminal
 }
 
+//Funcao para verificar o lado direito
 int valida_ladoDir(char *str){
     for(int i = 0; str[i] != '\0'; i++) {
         if(!classificaNaoTerminal(str[i])) {
             if(!classificaTerminal(str[i])) {
-                return 0; // Caractere inválido
+                return 0; // Caractere invalido
             }
         }
     }
@@ -58,7 +59,6 @@ char* encontraRaiz(char* string) {
             char* simbolo = malloc(2 * sizeof(char));
             simbolo[0] = string[i];
             simbolo[1] = '\0';
-            return simbolo;
         }
     }
     return NULL;
@@ -83,7 +83,7 @@ Gramatica* valida_gramatica(char* gramatica_str) {
     // Divide as regras pelo separador -
     char* token = strtok(copia, "-");
     while (token != NULL) {
-        // Remove espaços em branco
+        // Remove espacos em branco
         while (*token == ' ') token++;
         int len = strlen(token);
         while (len > 0 && token[len-1] == ' ') {
@@ -103,7 +103,7 @@ Gramatica* valida_gramatica(char* gramatica_str) {
         char* lado_esquerdo = token;
         char* lado_direito = seta + 1;
 
-        // Remove espaços
+        // Remove espacos
         while (*lado_direito == ' ') lado_direito++;
 
         // Valida os lados
@@ -119,7 +119,7 @@ Gramatica* valida_gramatica(char* gramatica_str) {
             return gramatica;
         }
 
-        // Adiciona a regra à lista
+        // Adiciona a regra a lista
         gramatica->num_regras++;
         gramatica->regras = realloc(gramatica->regras, gramatica->num_regras * sizeof(char*));
         gramatica->regras[gramatica->num_regras - 1] = malloc(strlen(lado_esquerdo) + strlen(lado_direito) + 2);
@@ -134,7 +134,7 @@ Gramatica* valida_gramatica(char* gramatica_str) {
     return gramatica;
 }
 
-//liberar memória
+//liberar memoria
 void libera_gramatica(Gramatica* gramatica) {
     if (gramatica == NULL) return;
 
@@ -191,4 +191,3 @@ int main(int argc, char* argv[]) {
     libera_gramatica(gramatica);
     return 0;
 }
-
